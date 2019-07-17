@@ -1,0 +1,10 @@
+/* Quitando estilos predeterminados */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Estilos generales */
+body {
+  font-family: "Raleway", sans-serif;
+}
