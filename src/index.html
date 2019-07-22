@@ -11,23 +11,46 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <head>
-      <nav>
-        <ul>
+    <header class="container">
+      <div class="menu-toggle" id="icon-menu">
+        <div class="hamburguer"></div>
+      </div>
+      <nav class="navigation" id="nav">
+        <ul class="menu">
           <li>
-            <a>Viaja</a>
+            <a class="link" href="#travel">Viaja</a>
           </li>
           <li>
-            <a>Conduce</a>
+            <a class="link" href="#drive">Conduce</a>
           </li>
           <li>
-            <a>Inicia sesión</a>
+            <a class="link" href="#log-in">Inicia sesión</a>
           </li>
         </ul>
       </nav>
-      <figure>
+      <figure class="logo">
         <img src="./labcar_recursos/img/logo.png" alt="Labcar logo" />
       </figure>
-    </head>
+    </header>
+    <main>
+      <section class="sections" id="hero">
+        <div id="yellow-container">
+          <div class="text-hero-container">
+            <h1>
+              Comienza a viajar con
+              <figure>
+                <img
+                  src="./labcar_recursos/img/logo-blanco.png"
+                  alt="labcar logo"
+                  class="white-logo"
+                />
+              </figure>
+            </h1>
+            <button class="white-button">Descarga el app</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
   </body>
 </html>
