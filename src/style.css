@@ -8,6 +8,7 @@
 body {
   font-family: "Raleway", sans-serif;
   display: block;
+  color: white;
 }
 
 h1 {
@@ -124,7 +125,6 @@ header::after {
   background-color: #f7b617;
   width: 78%;
   height: 46%;
-  color: white;
   margin-top: 39%;
   margin-left: 22%;
 }
@@ -159,7 +159,6 @@ header::after {
   background-color: #f7b617;
   width: 100%;
   height: 100vh;
-  color: white;
   padding-top: 15%;
   text-align: center;
 }
@@ -181,4 +180,47 @@ header::after {
 
 #information p {
   margin-top: 15%;
+}
+
+/* Estilos CONDUCTOR */
+#driver {
+  height: 50vh;
+  background-image: url(./labcar_recursos/img/conduce.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  display: flex;
+}
+
+#driver::before {
+  content: "";
+  background-color: rgba(25, 14, 44, 0.6);
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+}
+
+.text-driver-container {
+  width: 80%;
+  z-index: 1000;
+  width: 80%;
+  margin-left: 10px;
+  margin-top: 75px;
+}
+
+.yellow-button {
+  background-color: #f7b617;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 11px;
+  color: white;
+  border-radius: 5px;
+  border: transparent;
+  margin-top: 13px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#driver h2 {
+  padding-bottom: 10px;
 }
