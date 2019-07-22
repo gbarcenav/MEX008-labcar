@@ -14,7 +14,16 @@ h1 {
   font-weight: 400;
   font-size: 35px;
 }
-/* Estilos header */
+
+h2 {
+  font-weight: 500;
+}
+
+p {
+  font-size: 110%;
+}
+
+/* Estilos NAV */
 .container {
   width: 100%;
   height: 18vh;
@@ -101,7 +110,7 @@ header::after {
   transform: translateY(5px);
 }
 
-/* Estilos hero */
+/* Estilos HERO */
 #hero {
   height: 82vh;
   background-image: url(./labcar_recursos/img/taxi.jpg);
@@ -143,4 +152,33 @@ header::after {
 
 .white-logo {
   width: 50%;
+}
+
+/* Estilos INFORMACIÓN */
+#information {
+  background-color: #f7b617;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  padding-top: 15%;
+  text-align: center;
+}
+
+#text-mobile-container {
+  width: 85%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 2px solid;
+  padding-top: 20%;
+}
+
+#mobile {
+  width: 70%;
+  margin-top: 10%;
+}
+
+#information p {
+  margin-top: 15%;
 }
