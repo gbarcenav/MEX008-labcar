@@ -20,6 +20,10 @@ h2 {
   font-weight: 500;
 }
 
+h3 {
+  font-weight: 400;
+}
+
 p {
   font-size: 110%;
 }
@@ -201,7 +205,6 @@ header::after {
 }
 
 .text-driver-container {
-  width: 80%;
   z-index: 1000;
   width: 80%;
   margin-left: 10px;
@@ -223,4 +226,62 @@ header::after {
 
 #driver h2 {
   padding-bottom: 10px;
+}
+
+/* Estilos TARIFA */
+#rate {
+  background-color: #f7b617;
+  width: 100%;
+  height: 100vh;
+  padding-top: 15%;
+}
+
+#text-rate {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+  text-align: left;
+}
+
+.input-button {
+  width: 85%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-input {
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.icon {
+  float: left;
+  margin-top: 2%;
+  margin-right: 5%;
+}
+
+.box {
+  float: left;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 80%;
+  height: 5vh;
+  color: white;
+}
+
+#rate h3 {
+  padding-bottom: 20px;
+}
+
+#rate p {
+  font-weight: 300;
+  font-size: 100%;
+  padding-bottom: 40px;
+}
+#trace-route {
+  margin-left: auto;
+  margin-right: auto;
 }
