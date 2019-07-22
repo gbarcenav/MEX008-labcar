@@ -295,6 +295,7 @@ footer {
 .logo-footer {
   margin-top: 20px;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 .container-section-footer {
@@ -338,6 +339,87 @@ footer {
 
 footer p {
   text-align: center;
-  margin-top: 7%;
+  margin-top: 2%;
   font-size: 95%;
+}
+
+/* Estilos ESCRITORIO */
+
+@media screen and (min-width: 700px) {
+  /* Estilos NAV */
+  .container {
+    height: 15vh;
+  }
+
+  .logo {
+    margin-left: 130px;
+  }
+
+  .navigation {
+    top: 0;
+    height: 15vh;
+    background: transparent;
+    right: 0;
+  }
+
+  .navigation ul li {
+    float: left;
+  }
+
+  .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-right: 150px;
+  }
+
+  .navigation a {
+    padding: 10px;
+    text-align: right;
+    width: 150px;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  /* Estilos HERO */
+  #hero {
+    height: 85vh;
+    background-position-y: bottom;
+    background-size: 100%;
+  }
+
+  #yellow-container {
+    width: 40%;
+    height: 51%;
+    margin-top: 10%;
+    margin-left: 60%;
+    position: absolute;
+  }
+
+  .white-button {
+    background-color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 11px;
+    color: #2b2b2b;
+    border-radius: 5px;
+    border: transparent;
+    margin-top: 13px;
+    cursor: pointer;
+  }
+
+  .text-hero-container {
+    text-align: left;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+  }
+
+  .white-logo {
+    width: 50%;
+  }
 }
