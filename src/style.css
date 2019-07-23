@@ -158,6 +158,10 @@ header::after {
   width: 50%;
 }
 
+.hero-container-desk {
+  display: none;
+}
+
 /* Estilos INFORMACIÓN */
 #information {
   background-color: #f7b617;
@@ -169,7 +173,7 @@ header::after {
 
 #text-mobile-container {
   width: 85%;
-  height: 80%;
+  height: 450px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -177,13 +181,20 @@ header::after {
   padding-top: 20%;
 }
 
+#text-mobile-container h2 {
+  margin-top: 2px;
+}
 #mobile {
   width: 70%;
-  margin-top: 10%;
+  margin-top: 17%;
 }
 
 #information p {
   margin-top: 15%;
+}
+
+#text-desk-container {
+  display: none;
 }
 
 /* Estilos CONDUCTOR */
@@ -390,6 +401,19 @@ footer p {
     background-size: 100%;
   }
 
+  .text-hero-desk h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .hero-container-mobile {
+    display: none;
+  }
+
+  .hero-container-desk {
+    display: contents;
+  }
+
   #yellow-container {
     width: 40%;
     height: 51%;
@@ -398,19 +422,7 @@ footer p {
     position: absolute;
   }
 
-  .white-button {
-    background-color: white;
-    font-weight: 500;
-    font-size: 18px;
-    padding: 11px;
-    color: #2b2b2b;
-    border-radius: 5px;
-    border: transparent;
-    margin-top: 13px;
-    cursor: pointer;
-  }
-
-  .text-hero-container {
+  .text-hero-desk {
     text-align: left;
     width: 70%;
     height: auto;
@@ -420,6 +432,71 @@ footer p {
   }
 
   .white-logo {
-    width: 50%;
+    width: 21%;
+  }
+
+  .text-logo {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .text-logo p {
+    float: left;
+    margin-right: 5px;
+  }
+
+  .log {
+    font-size: 15px;
+  }
+
+  .or-well {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* Estilos INFORMACIÓN */
+  #information {
+    text-align: left;
+    padding-top: 65px;
+  }
+
+  #mobile-info {
+    display: none;
+  }
+
+  #text-desk-container {
+    display: block;
+    margin-left: -2px;
+  }
+
+  #desk-info {
+    width: 80%;
+    height: 80vh;
+    border: 2px solid;
+    overflow: hidden;
+    padding-top: 90px;
+    padding-left: 70px;
+  }
+
+  #mobile {
+    float: left;
+    width: 35%;
+    margin-top: 10px;
+    margin-right: 100px;
+  }
+
+  #text-down {
+    width: 37%;
+    float: left;
+  }
+
+  #information p {
+    margin-top: 20px;
+    font-size: 23px;
+  }
+
+  #information h2 {
+    font-size: 30px;
   }
 }

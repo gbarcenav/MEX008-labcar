@@ -11,11 +11,14 @@
     <link rel="stylesheet" href="./labcar_recursos/iconos/style.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <!-- HEADER     -->
     <header class="container">
       <div class="menu-toggle" id="icon-menu">
         <div class="hamburguer"></div>
       </div>
+      <!-- NAV -->
       <nav class="navigation" id="nav">
         <ul class="menu">
           <li>
@@ -33,25 +36,57 @@
         <img src="./labcar_recursos/img/logo.png" alt="Labcar logo" />
       </figure>
     </header>
+    <!-- MAIN -->
     <main>
+      <!-- HERO -->
       <section class="sections" id="hero">
         <div id="yellow-container">
-          <div class="text-hero-container">
-            <h1>
-              Comienza a viajar con
-              <figure>
-                <img
-                  src="./labcar_recursos/img/logo-blanco.png"
-                  alt="labcar logo"
-                  class="white-logo"
-                />
-              </figure>
-            </h1>
-            <button class="white-button">Descarga el app</button>
+          <div class="hero-container-mobile">
+            <div class="text-hero-container">
+              <h1>
+                Comienza a viajar con
+                <figure>
+                  <img
+                    src="./labcar_recursos/img/logo-blanco.png"
+                    alt="labcar logo"
+                    class="white-logo"
+                  />
+                </figure>
+              </h1>
+              <button class="white-button">Descarga el app</button>
+            </div>
+          </div>
+          <!-- HERO ESCRITORIO -->
+          <div class="hero-container-desk">
+            <div class="text-hero-desk">
+              <h1>
+                Disfruta del viaje<br>
+                Eres dueño de tu tiempo
+              </h1>
+              <div class="text-logo">
+              <p>
+                Viaja con
+                <figure>
+                  <img
+                    src="./labcar_recursos/img/logo-blanco.png"
+                    alt="labcar logo"
+                    class="white-logo"
+                  />
+                </figure>
+              </div>
+              </p>
+              <p class="log">REGISTRATE</p>
+              <p class="or-well">O bien</p>
+
+              <button class="white-button">Conviértete en conductor</button>
+            </div>
           </div>
         </div>
       </section>
+
+      <!-- INFORMACION -->
       <section class="sections" id="information">
+          <div id="mobile-info">
         <div id="text-mobile-container">
           <h2>La nueva app</h2>
           <figure>
@@ -59,7 +94,22 @@
           </figure>
         </div>
         <p>Llega a tu destino aún más rápido</p>
+      </div>
+      <!-- DESK INFO -->
+      <div id="text-desk-container">
+       <div id="desk-info">
+          <figure>
+            <img id="mobile" src="./labcar_recursos/img/celular.png" />
+          </figure>
+          <div id="text-down">
+          <h2>Descarga la nueva app</h2>
+          <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.<br>
+          <br>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes; tu conductor sabe exactamente a dónde ir.</p>
+        </div>
+        </div>
+      </div>
       </section>
+      <!-- CONDUCTOR -->
       <section class="sections" id="driver">
         <div class="text-driver-container">
           <h2>Conduce cuando quieras</h2>
@@ -69,6 +119,7 @@
           <button class="yellow-button">Conviértete en conductor</button>
         </div>
       </section>
+      <!-- TARIFAS -->
       <section class="sections" id="rate">
         <div id="text-rate">
           <h3>Tarifas</h3>
@@ -106,6 +157,7 @@
         </div>
       </section>
     </main>
+    <!-- FOOTER -->
     <footer>
       <figure>
         <img
