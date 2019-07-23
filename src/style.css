@@ -358,6 +358,10 @@ footer p {
   font-size: 95%;
 }
 
+.link-list-second {
+  display: none;
+}
+
 /* Estilos ESCRITORIO */
 
 @media screen and (min-width: 700px) {
@@ -549,5 +553,47 @@ footer p {
     padding: 5px;
     display: block;
     float: left;
+  }
+
+  /* Estilos FOOTER */
+  .logo-footer {
+    margin-top: 70px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+
+  .container-section-footer {
+    height: 70vh;
+  }
+
+  .link-list {
+    margin-left: 400px;
+    width: 19%;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .right-section {
+    width: 30%;
+    height: 100vh;
+  }
+
+  .link-list-second {
+    display: block;
+    float: left;
+    margin-right: 94px;
+  }
+
+  .link-list-second ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+  }
+
+  .right-section img {
+    width: 30%;
   }
 }
