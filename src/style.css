@@ -297,6 +297,10 @@ header::after {
   margin-right: auto;
 }
 
+.map {
+  display: none;
+}
+
 /* Estilos FOOTER */
 footer {
   background-color: #2b2b2b;
@@ -498,5 +502,52 @@ footer p {
 
   #information h2 {
     font-size: 30px;
+  }
+
+  /* Estilos CONDUCTOR */
+  #driver {
+    height: 101vh;
+    background-position-y: bottom;
+  }
+
+  .text-driver-container {
+    margin-left: 700px;
+    margin-top: 180px;
+  }
+
+  #driver::before {
+    width: 50vw;
+    height: 101vh;
+    right: 0;
+  }
+
+  .text-driver-container p {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  #driver h2 {
+    padding-bottom: 24px;
+    font-size: 41px;
+  }
+
+  /* Estilos TARIFA */
+  #text-rate {
+    margin-top: 0%;
+    overflow: hidden;
+  }
+
+  #rate-container {
+    width: 50%;
+    margin-left: 40px;
+    float: left;
+    margin-right: 36px;
+  }
+
+  .map {
+    border: 2px solid;
+    padding: 5px;
+    display: block;
+    float: left;
   }
 }
